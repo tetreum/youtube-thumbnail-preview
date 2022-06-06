@@ -1,0 +1,12 @@
+.paste-container {
+    border: 4px dashed #dee2e6;
+    padding: 20px;
+    cursor: pointer;
+}
+.paste-container:hover {
+    border: 4px dashed #c7cacd;
+}
+
+#result-container img {
+    width: 360px;
+}

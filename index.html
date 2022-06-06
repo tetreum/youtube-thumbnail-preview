@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <title>Youtube thumbnail previewer</title>
+
+        <link href="css/index.css" rel="stylesheet">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>        
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div class="container text-center mt-3 mb-5">
+            <h1 class="mb-4">Youtube thumbnail previewer</h1>
+
+            <div id="step-1" class="d-flex mb-4">
+                <div id="paste-container" class="paste-container flex-fill d-flex text-muted align-items-center justify-content-center">
+                    <div>
+                        <input name="image" accept="image/png, image/jpeg, image/jpg" type="file" autocomplete="off" tabindex="-1" style="display: none;">
+                        <p>Click/Drag&Drop or paste here the thumbnail to be previewed</p>
+                        <small>(Expected size: 1280x720)</small>
+                    </div>
+                </div>
+                <div id="result-container" class="d-none ms-2">
+                    <img src="">
+                    <input value="VIDEO TITLE - RENAME ME" type="text" class="form-control">
+                </div>
+            </div>
+            <div id="step-2" class="d-none">
+                <h1 class="text-center">View preview</h1>
+                <div class="border d-inline-block">
+                    <a href="channel.html?section=channel" target="_blank" class="text-decoration-none">
+                        <img src="imgs/channel-preview.png">
+                        <h6>Channel Preview</h6>
+                    </a>
+                </div>
+                <div class="border d-inline-block">
+                    <a href="channel.html?section=home" target="_blank" class="text-decoration-none">
+                        <img src="imgs/home-preview.png">
+                        <h6>Home Preview</h6>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
