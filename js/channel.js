@@ -32,7 +32,7 @@ class Channel {
         },
         {
             title: "Dua Lipa, Avicii, Coldplay, Martin Garrix & Kygo, The Chainsmokers Style - Feeling Me",
-            thumbnail: "https://i.ytimg.com/vi/f7_y-lvOOjQ/hq720_live.jpg?sqp=CKDr95QG-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCOwF1peV-qVs9oXTI9eY4C6MDjRw",
+            thumbnail: "https://i.ytimg.com/vi/wkVygetgeRY/hq720.jpg?sqp=-oaymwEnCNAFEJQDSFryq4qpAxkIARUAAIhCGAHYAQHiAQoIGBACGAY4AUAB&rs=AOn4CLAiFaVRL_TwtWcoBAVVEWPf4PUU5g",
             avatar: "https://yt3.ggpht.com/ytc/AKedOLSPKRE-sqc1-ZGMl1COlgMmykAQtqSZVvLmdfeVkQ=s68-c-k-c0x00ffffff-no-rj"
         },
         {
